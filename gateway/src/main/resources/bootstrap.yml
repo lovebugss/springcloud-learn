@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 3684ab0b-3d36-422e-9267-c6710e7e504b
+        group: dev
+  application:
+    name: gateway
